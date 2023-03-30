@@ -1,0 +1,23 @@
+.country{
+    border: 3px solid limegreen;
+    background: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+}
+.country img{
+    width: 200px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
